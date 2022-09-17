@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Belajar Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/cssboot.css" />
+    <link rel="stylesheet" href="css/cssprog.css" />
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="c">
+      <!-- Tab Link kanan -->
+      <div class="tab-content" id="v-pills-tabContent">
+        <!-- Halaman 1 -->
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+          <div class="pembungkus">
+            <img  class="d" src="img/backgroundweb.jpg" alt="" />
+            <ul style="list-style-type: none; position: absolute; right: 9%; top: 29vh; " >
+            <li><a href="index.html" style=" writing-mode: vertical-rl; text-decoration: none; margin-top: 10px; color: #e0dee0;">Home</a></li>
+            <li><a href="#" style=" writing-mode: vertical-rl; text-decoration: none; margin-top: 10px; color: #e0dee0;">About</a></li>
+            <li><a href="#" style=" writing-mode: vertical-rl; text-decoration: none; margin-top: 10px; color: #e0dee0;">Project</a></li>
+            <li><a href="#" style=" writing-mode: vertical-rl; text-decoration: none; margin-top: 10px; color: #e0dee0;">Contact</a></li>
+          </ul>
+          </div>
+        </div>
+        <!-- Halaman 2 -->
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+          
+          <div class="bekgron1">
+            <div class="bg1"></div>
+            <div class="bg2"></div>
+            <div class="bg3"></div>
+            <div class="container" style="padding: 0 100px 0 100px ;">
+            <h3 class="judul">Process to become a <br>
+              Sr. Frontend Developer</h3>
+              <div class="row">
+                <div class="col-3" >
+                  <div class="card" style="position:absolute;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">HTML</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3" >
+                  <div class="card" style="position:absolute;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">CSS</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3" >
+                  <div class="card" style="position:absolute;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Bootstrap</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3" >
+                  <div class="card" style="position:absolute;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">JavaScript</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h5 class="judul1">Framework</h5>
+              <p class="isi2">React <br><br>
+                Angular <br><br>
+                Vue.js 
+              </p>
+            </div>
+            <ul style="list-style-type: none; position: absolute; right: 9%; top: 29vh; " >
+              <li><a href="index.html" style=" writing-mode: vertical-rl; text-decoration: none; margin-top: 10px; color: #e0dee0;">Home</a></li>
+              <li><a href="#" style=" writing-mode: vertical-rl; text-decoration: none; margin-top: 10px; color: #e0dee0;">About</a></li>
+              <li><a href="#" style=" writing-mode: vertical-rl; text-decoration: none; margin-top: 10px; color: #e0dee0;">Project</a></li>
+              <li><a href="#" style=" writing-mode: vertical-rl; text-decoration: none; margin-top: 10px; color: #e0dee0;">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Tab Link kanan -->
+
+      
+      <!-- Arrow kiri -->
+      <div class="d-flex align-items-start" style="position: absolute; top: 45vh; left: 8%">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+            </svg>
+          </button>
+          <button class="nav-link " id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+            </svg>
+        </div>
+      </div>
+      <!-- End Arrow kiri -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
